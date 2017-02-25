@@ -46,7 +46,7 @@ function waterfall(parent,box) {
 		//	console.log(index);
 			oBoxs[i].style.position='absolute';         //设置新的一行第一张图片的css样式
 			oBoxs[i].style.top=minH+'px';
-			 oBoxs[i].style.left=oBoxsW*index+'px';
+			   oBoxs[i].style.left=oBoxsW*index+'px';
 			// console.log(oBoxsW*index);
 			oBoxs[i].style.left=oBoxs[index].offsetLeft+'px';
 		// 	console.log(oBoxs[index].offsetLeft);
